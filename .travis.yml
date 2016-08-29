@@ -2,7 +2,8 @@
 
 language: objective-c
 osx_image: xcode61
-sudo:required
+sudo:
+  required
 rvm:
 - 2.1.2
 install:
