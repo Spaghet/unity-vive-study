@@ -3,9 +3,7 @@
 language: objective-c
 sudo:
   required
-rvm:
-- 2.1.2
 install:
-- ./Scripts/install.sh
+- ./travis-ci/install.sh
 script:
-- ./Scripts/build.sh
+- ./travis-ci/build.sh
