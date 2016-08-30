@@ -4,6 +4,11 @@ language: objective-c
 osx_image: xcode61
 rvm:
 - 2.1.2
+#uncomment if using travis-ci.com(private repository)
+#cache:
+#  directories:
+#    - /Applications/Unity
+
 before_install:
 - chmod a+x ./travis-ci/install.sh
 - chmod a+x ./travis-ci/build.sh
